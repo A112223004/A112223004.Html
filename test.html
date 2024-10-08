@@ -1,3 +1,4 @@
+<!-- 範例1 -->
 <!DOCTYPE html>
 <html lang="zh-tw">
 <head>
@@ -12,7 +13,7 @@
 </body>
 </html>
 
-
+<!-- 範例2 -->
 <!DOCTYPE html>
 <html lang="zh-tw">
 <head>
@@ -25,5 +26,78 @@
         <li>韓國</li><!-- //項目5 -->
         <li value="8">台灣</li><!-- //項目8 -->
     </ol><!--  //項目清單 1234-->
+</body>
+</html>
+
+<!-- 範例3 -->
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+    <ol type="n"> <!--  //n = A a 1 I i -->
+        <li>日本</li><!--  //項目1 -->
+        <li>韓國</li><!-- //項目2 -->
+    </ol><!--  //項目清單... -->
+</body>
+</html>
+
+<!-- 範例4 -->
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+    <ol reversed> <!--  //數字倒過來(321) -->
+        <li>日本</li><!--  //項目1 -->
+        <li>韓國</li><!-- //項目2 -->
+    </ol><!--  //項目清單... -->
+</body>
+</html>
+
+<!-- 範例5 -->
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+    <dl><!-- //自定義清單 -->
+        <dt>台北</dt><!-- //標題 -->
+            <dd>台灣的首都，交通方便</dd><!-- //內容 -->
+        <dt>巴黎</dt><!-- //標題 -->
+            <dd>法國的首都，交通方便</dd><!-- //內容 -->
+        <dt>東京</dt><!-- //標題 -->
+            <dd>日本的首都，交通方便</dd><!-- //內容 -->
+    </dl>
+</body>
+</html>
+
+<!-- 範例6 -->
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+    <table border="1"><!-- //表格 --><!-- //border 是框線, 123是粗細 -->
+        <thead><!-- //表頭 -->
+            <tr><th>店名</th><th>地址</th><th>時間</th></tr><!-- //中間是th 加粗 -->
+        </thead>
+        <tr><td>大安店</td><td>台北大安</td>
+        <td rowspan="2">9:00-23:00</td></tr><!-- //rowspan="n" 橫跨n個row -->
+        <tr><td>文山店</td><td>埃及</td><td>非洲</td></tr>
+        <tr><td>亞馬遜河</td><td>巴西</td><td>南美洲</td></tr><!-- //tr = 行 放第一個跟最後一個, td = 列放中間 -->
+        <tfoot><!-- //表尾 -->
+            <tr><td colspan="3">製表2024年10月8日</td></tr><!-- //colspan="n" 橫跨n個colen -->
+        </tfoot>
+    </table>
+  
 </body>
 </html>
