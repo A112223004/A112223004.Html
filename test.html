@@ -102,7 +102,7 @@
 </body>
 </html>
 
-<!-- 範例7 -->
+<!-- 範例6-8 -->
 
 <!DOCTYPE html>
 <html lang="zh-tw">
@@ -125,5 +125,146 @@
         </tfoot>
     </table>
   
+</body>
+</html>
+
+
+<!-- 範例6-9 -->
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+    <table border="1">
+        <caption>世新麵館</caption><!-- //標題 -->
+        <colgroup>
+            <col style ="background-color:lightgray ;">  <!-- //col1顏色 --> 
+            <col style ="background-color:yellow ;">   <!-- //col2顏色 --> 
+            <col style ="background-color:orange ;">   <!-- //col3顏色 --> 
+        </colgroup>
+        <thead>
+            <tr><th>品名</th><th>價格</th></tr>
+        </thead>
+        <tr><td>陽春麵</td>
+        <td rowspan="2">50</td></tr>
+        <tr><td>滷肉飯</td></tr>
+        <tr><td>牛肉麵</td><td>120</td></tr>
+        <tfoot>
+            <tr><td colspan="3">113年10月16日</td></tr>
+        </tfoot>
+    </table>
+  
+</body>
+</html>
+
+<!-- 範例6-10 -->
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr><td colspan="3">美國電子大廠</td></tr>
+            <tr><th>公司</th><th>產品</th></tr>
+        </thead>
+    <tbody>
+        <tr><td> <a href="https://zh.wikipedia.org/zh-tw/IBM">IBM</a>
+        </td><td>大型主機</td></tr>
+        <tr><td> <a href="https://zh.wikipedia.org/zh-tw/Apple">Apple</a>
+        </td><td>隨身裝置</td></tr>
+        <tr><td> <a href="https://zh.wikipedia.org/wiki/Intel">Intel</a>
+        </td><td>電子晶片</td></tr>
+    </tbody>
+     
+    </table>
+  
+</body>
+</html>
+
+<!-- 範例6-11 -->
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+    <table border="1">
+        <caption>世新麵館</caption><!-- //標題 -->
+        <colgroup>
+            <col style ="background-color:lightgray ;">  <!-- //col1顏色 --> 
+            <col span ="2" style ="background-color:yellow ;">   <!-- //col2顏色 --> 
+        </colgroup>
+        <thead>
+            <tr><th>品名</th><th>價格</th></tr>
+        </thead>
+        <tr><td>陽春麵</td>
+        <td rowspan="2">50</td></tr>
+        <tr><td>滷肉飯</td></tr>
+        <tr><td>牛肉麵</td><td>120</td></tr>
+        <tfoot>
+            <tr><td colspan="3">113年10月16日</td></tr>
+        </tfoot>
+    </table>
+  
+</body>
+</html>
+
+<!-- 範例7-1 -->
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+   <h1>柯南</h1>
+   <p>圖片高是100px&nbsp;&nbsp;圖片寬是150px</p>
+   <img src="corna.jpeg" height="100" width="150"> <!-- 輸入圖片 -->
+
+   <p>使用預設圖片大小</p>
+   <img src="corna.jpeg" >
+  
+</body>
+</html>
+
+<!-- 範例7-2 -->
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+   <figure>
+    <img src="corna.jpeg" alt="圖片輸入錯誤"><!-- 無法顯示 -->
+
+   </figure>
+</body>
+</html>
+
+<!-- 範例7-3 -->
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+   <figure>
+    <img src="corna.jpeg" alt="圖片輸入錯誤">
+    <figcaption>柯南</figcaption> <!-- 圖片/表格下方解釋 -->
+
+   </figure>
 </body>
 </html>
