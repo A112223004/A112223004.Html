@@ -12,3 +12,10 @@ header {
     justify-content: space-between;
     padding: 10px 20px;
 }
+
+hr {
+    border: 0;  /* 不顯示邊框 */
+    height: 50px;  /* 設定高度，空白區域的高度 */
+    background-color: transparent;  /* 背景透明，保持空白 */
+    margin: 40px 0;  /* 設定上下的間隔 */
+}
