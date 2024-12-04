@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>ch2_1.html</title>
+</head>
+<body>
+    <section class="courses">
+        <h1>我們的課程</h1>
+        <ul>
+            <li>資訊系統概論</li>
+            <li>大數據分析</li>
+            <li>雲端運算技術</li>
+            <li>網路安全</li>
+            <li>人工智慧基礎</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 世新大學資管系 | All Rights Reserved</p>
+    </footer>
+
+    
+  
+</body>
+</html>
