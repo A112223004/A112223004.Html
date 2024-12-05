@@ -19,3 +19,66 @@ hr {
     background-color: transparent;  /* 背景透明，保持空白 */
     margin: 40px 0;  /* 設定上下的間隔 */
 }
+
+
+hr {
+    border: 0;
+    border-top: 5px solid #FFE4E1; /* 增加分隔線的粗細 */
+    margin: 40px 0;  /* 增加上下間距 */
+    }
+    
+    /* 設置頁面 margin 和 padding 讓內容不會被擠壓 */
+body {
+        margin: 0;
+        padding: 0;
+        }
+
+    /* 讓 header 容器固定在頁面頂部 */
+header {
+        position: relative;
+        padding: 20px;
+        }
+
+    /* 設置 logo 的位置，讓它在 header 中居中顯示 */
+    .logo img {
+        display: block;
+        margin: 0 auto;
+        }
+
+    /* 讓導航欄固定在頁面右上角 */
+    nav {
+        position: absolute; /* 絕對定位 */
+        top: 30; /* 固定在頁面頂部 */
+        right: 0; /* 固定在頁面右側 */
+        padding: 30px; /* 給導航欄一些內邊距 */
+        }
+
+    /* 設置 ul 和 li 的樣式，使連結並排顯示 */
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* 使用 Flexbox 讓 li 並排顯示 */
+        gap: 20px; /* 連結之間的間距 */
+        }
+
+    nav li {
+        margin: 0;
+        }
+
+    /* 設置 a 標籤的樣式 */
+    nav a {
+        text-decoration: none;
+        color: #333; /* 文字顏色 */
+        font-size: 30px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: #FFC0CB; /* 背景顏色 */
+        transition: background-color 0.3s ease;
+        }
+
+    /* 設置 hover 效果 */
+    nav a:hover {
+        background-color: #4CAF50; /* 懸停時的背景顏色 */
+        color: white; /* 懸停時的文字顏色 */
+        }

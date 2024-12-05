@@ -1,8 +1,223 @@
 <!DOCTYPE html>
-<html>
-    <h1>歡迎來到世新大學</h1>
-    <h2>資訊管理學系</h2>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課程介紹 - 世新大學資管系</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        hr {
+            border: 0;
+            border-top: 5px solid #FFE4E1; /* 增加分隔線的粗細 */
+            margin: 40px 0; /* 增加上下間距 */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: relative;
+            padding: 20px;
+        }
+
+        .logo img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        nav {
+            position: absolute;
+            top: 30px;
+            right: 0;
+            padding: 30px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 30px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #FFC0CB;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* 表格樣式 */
+        table {
+            width: 80%;
+            border-collapse: collapse; /* 合併邊框 */
+            margin-top: 20px;
+        }
+
+        /* 表格1 */
+        .table1 th, .table1 td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd; /* 設置下邊框顏色 */
+        }
+
+        .table1 th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* 表格2 */
+        .table2 th, .table2 td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #FF6347; /* 設置表格2的邊框顏色為番茄紅 */
+        }
+
+        .table2 th {
+            background-color: #FF6347;
+            color: white;
+        }
+
+        /* 表格3 */
+        .table3 th, .table3 td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #1E90FF; /* 設置表格3的邊框顏色為藍色 */
+        }
+
+        .table3 th {
+            background-color: #1E90FF;
+            color: white;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
 <body>
-    <title>y 資訊管理學系網站</title>
+    <header>
+        <div class="logo">
+            <img src="shu.jpg" height="100" width="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="大學部.html">大學部</a></li>
+                <li><a href="研究所.html">研究所</a></li>
+                <li><a href="course.html">跨域特色學分課程</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- 表格 1 -->
+    <table class="table1">
+        <thead>
+            <tr>
+                <th>組別</th>
+                <th>資管組</th>
+                <th>資科組</th>
+                <th>智網組</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>教育目標</td>
+            <td>
+                1.人工智慧應用能力<br>
+                2.商務數據分析能力<br>
+                3.智慧企業應用ERP、CRM人才培養<br>
+                4.數位轉型與創新能力<br>
+                5.數位媒體科技應用能力<br>
+            </td>
+            <td>
+                1.人工智慧應用與開發能力<br>
+                2.智慧物聯應用與開發能力<br>
+                3.雲端平台規畫與管理能力<br>
+                4.遊戲設計與製作能力<br>
+                5.數位媒體科技創新與應用能力<br>
+            </td>
+            <td>
+                1.人工智慧應用與開發能力<br>
+                2.智慧物聯應用與開發能力<br>
+                3.雲端平台規畫與管理能力<br>
+                4.遊戲設計與製作能力<br>
+                5.數位媒體科技創新與應用能力<br>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- 表格 2 -->
+    <table class="table2">
+        <thead>
+            <tr>
+                <th>學制</th>
+                <th>碩士班</th>
+                <th>碩士在職班</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>教育目標</td>
+            <td>
+                1.培養企業資訊<br>
+                2.技術研發及電腦網路通訊人才<br>
+                3.學生可從事資訊產業研發及資訊應用<br>
+                4.培養學術研究能力<br>
+            </td>
+            <td>
+                1.人工智慧應用與開發能力<br>
+                2.智慧物聯應用與開發能力<br>
+                3.雲端平台規畫與管理能力<br>
+                4.遊戲設計與製作能力<br>
+                5.數位媒體科技創新與應用能力<br>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- 表格 3 -->
+    <table class="table3">
+        <thead>
+            <tr>
+                <th>跨域特色學分課程</th>
+                <th>產業電子化</th>
+                <th>企業資源規劃</th>
+                <th>大數據課程</th>
+                <th>人工智慧科技應用</th>
+                <th>智慧物聯網(微學程)</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>目標</td>
+            <td>培養網際網路時代資訊化社會所需要的產業電子化人才</td>
+            <td>培養企業e化所需的企業資源規劃專業人才</td>
+            <td>培養大數據運算與資料分析所需之相關專業人才</td>
+            <td>培育人工智慧相關產業所需的整合性科技人才</td>
+            <td>為培育智慧物聯網專業人才</td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>© 2024 世新大學資管系 | All Rights Reserved</p>
+    </footer>
+
 </body>
 </html>
